@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<body>
+    <div>
+        <h1>let's get dem múskles</h1>
+    </div>
+    
+        <div id="mainContainer">
+            <div id="mainBox" class="form">
+                <div class="choices">
+                    <button id="mealButton" class="choiceButton half">Meal</button>
+                    <button id="ingredientButton" class="choiceButton half">Ingredient</button>
+                </div>
+                <div>
+                
+                <div class="half" id="mealChoice">
+                    <form action="/add" method="post" enctype="multipart/form-data">
+                        <label for="name" class="mealLabel">Meal name:</label>
+                        <input type="text" class="mealInput" name="name" maxlength="40" required><br><br>
+
+                        <label for="company" class="mealLabel">Company:</label>
+                        <input type="text" class="mealInput" name="company"><br><br>
+
+                        <label for="type" class="mealLabel">Type:</label>
+                        <input type="text" class="mealInput" name="type"><br><br>
+
+                        <label for="kcal" class="mealLabel">Calories:</label>
+                        <input type="number" class="mealInput macro" name="kcal" required><br><br>
+
+                        <label for="fats" class="mealLabel">Fats:</label>
+                        <input type="number" class="mealInput macro" name="fats"><br><br>
+
+                        <label for="protein" class="mealLabel">Protein:</label>
+                        <input type="number" class="mealInput macro" name="protein"><br><br>
+
+                        <label for="carbs" class="mealLabel">Carbs:</label>
+                        <input type="number" class="mealInput macro" name="carbs"><br><br>
+
+                        <label for="fiber" class="mealLabel">Fiber:</label>
+                        <input type="number" class="mealInput macro" name="fiber"><br><br>
+
+                        
+                        <label for="ingredients" class="mealLabel">Ingredients:</label>
+                        <div class="ingredientsList">
+                            {% for ingredient in ingredients %}
+                                <p class="mealName">{{ ingredient["name"] }}</p>
+                            {% endfor %}
+                        </div>
+
+                        <input type="submit" id="submitMeal" name="submit_meal" value="Add meal">
+                </div>
+
+                <div class="half" id="ingredientChoice">
+                    <form action="/add" method="post" enctype="multipart/form-data">
+                        <label for="name" class="mealLabel">Ingredient name:</label>
+                        <input type="text" class="mealInput" name="name" maxlength="40" required><br><br>
+
+                        <label for="kcal" class="mealLabel">Calories:</label>
+                        <input type="number" class="mealInput macro" name="kcal" required><br><br>
+
+                        <label for="fats" class="mealLabel">Fats:</label>
+                        <input type="number" class="mealInput macro" name="fats"><br><br>
+
+                        <label for="protein" class="mealLabel">Protein:</label>
+                        <input type="number" class="mealInput macro" name="protein"><br><br>
+
+                        <label for="carbs" class="mealLabel">Carbs:</label>
+                        <input type="number" class="mealInput macro" name="carbs"><br><br>
+
+                        <label for="fiber" class="mealLabel">Fiber:</label>
+                        <input type="number" class="mealInput macro" name="fiber"><br><br>
+
+                        <input type="submit" id="submitMeal" name="submit_ingredient" value="Add ingredient">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+{% endblock %}

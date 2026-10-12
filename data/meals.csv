@@ -1,0 +1,95 @@
+id,name,meal_type,company,kcal,fats,protein,carbs,fiber,default_servings
+1,Dalamánek,side,,200,1.2,8,44,4,1
+2,McDonald's Cheeseburger,main,McDonald's,306,13,16,30,2.3,1
+3,McDonald's McNuggets 1ks,main,McDonald's,44,2,2.7,3.5,0.1,1
+4,McDonald's McChicken,main,McDonald's,427,17,20,45,2.7,1
+5,CrossCafe Míša,snack,CrossCafe,350,26,6.4,26,,1
+6,CrossCafe Berry white,snack,CrossCafe,341,21,7.8,29,,1
+7,Šproty v rajč. Omáčce,snack,Nixe,190,11,16.5,7,,1
+8,Kornout Ballino,snack,Ballino,180,9,2.5,22,,1
+9,Mug cake (60+125) + ovoce,breakfast,Vilgain,450,12,33,45,7,1
+10,Oatmeal (80g) + ovoce,breakfast,Vilgain,400,8,25,32,6,1
+11,Tvarohová svačinka Pilos,snack,Pilos,121,5,10,9,,1
+12,Horalky,snack,Sedita,270,16.5,4,25.5,2,1
+13,Onigiri,snack,Mowi,158,4,4,25,,1
+14,KFC Zinger,main,KFC,445,22.1,24.8,60.9,0,1
+15,Bageterie Wrap bruselská,main,Bageterie Boulevard,570,35,23,40,0,1
+16,Puding + ovoce,breakfast,,800,12,50,88,,2
+17,Bun Bo Nam Bo,main,,800,,,,,1
+18,Amatriciana,main,,750,,,,,1
+19,Vilgain Double trouble,snack,Vilgain,240,10,16,13,6,1
+20,Párek,main,Clean&Simple,115,10,7,,,1
+21,Rohlík,side,,120,1.2,3,23,1,1
+22,Kaiserka,side,,180,3,6,26,2,1
+23,McDonald's McRoyal,main,McDonald's,501,27,29,35,3,1
+24,McDonald's BigMac,main,McDonald's,510,27,24,40,3,1
+25,McDonald's Hranolky malé,side,McDonald's,229,11,3,29,2.9,1
+26,McDonald's Hranolky střední,side,McDonald's,329,15,4,41,4.1,1
+27,McDonald's Hranolky velké,side,McDonald's,430,20,5.4,54,5.4,1
+28,Bageterie Patatas,side,Bageterie Boulevard,200,3.5,3.5,37,0,1
+29,KFC Strips 1ks,main,KFC,92,5.9,6.6,3.2,0,1
+30,KFC Hranolky střední,side,KFC,202,8,3,30,0,1
+31,KFC Onion Rings,side,KFC,288,14,4.6,38,0,1
+32,KFC Hranolky velké,side,KFC,290,11,4,42,0,1
+33,CrossCafe Apple pie,snack,CrossCafe,332,12.7,4.3,48,,1
+34,Baked oatmeal,breakfast,,1200,26.5,57,168,19,4
+35,Boloňské špagety,main,,550,12,30,74,1,1
+36,Sweet potato brownies 1/6 + tvaroh + ovoce,breakfast,,450,14,25,46,,1
+37,Carbonary,main,,600,27,28,60,3,1
+38,Cottage pizza,main,,600,31,58,19,1,1
+39,Dort,snack,,450,25,5,45,1,1
+40,IKEA meal,main,IKEA,700,,13,,,1
+41,Játra s pórkem a rýží,main,,500,9,48,53,5,1
+42,Kefírové lívance 7ks + maple + tvaroh + ovoce,breakfast,,450,9,30,30,2,1
+43,Date stuff + tvaroh + ovoce,breakfast,,400,5,20,30,3,1
+44,Lilek s rajčaty a mozzarellou,main,,1050,39,90,75,27,3
+45,Mušle (20g eidamu),main,,830,38,35,82,8,1
+46,Nivová pomazánka,main,,600,33,62,14,,2
+47,Noky se špenátem a kuřecím,main,,630,6,53,91,4,1
+48,"Overnight oats (jablka, pekany, ořechy)",breakfast,,300,10,6.6,42,8,1
+49,"Overnight/oatmeal (coco, mango) + 80 g tvaroh",breakfast,,370,7,23,50,8,1
+50,Poke s kuřecím a rýží,main,,800,12,70,100,10,1
+51,Tortilla pizza,main,,600,23,37,52,4,1
+52,Primátor pomazánka,main,,420,20,48,12,,2
+53,Poke s tofu,main,Dobrá čajovna,900,30,25,80,,1
+54,Pita king,main,Dobrá čajovna,350,2,6,40,,1
+55,CrossCafe Frappe XL,drink,CrossCafe,189,13.5,4.2,12.3,,1
+56,CrossCafe Cappuccino XL,drink,CrossCafe,128,6.8,6.4,10,,1
+57,CrossCafe Chai latte XL,drink,CrossCafe,189,10.2,9.9,14.4,,1
+58,CrossCafe Kávové chai latte,drink,CrossCafe,55,2.4,2.2,3.5,,1
+59,Yogi Boba,drink,Dobrá čajovna,250,,10,,,1
+60,Poke s mletým a rýží,main,,600,19,49,53,4,1
+61,Poke s mletým a batáty,main,,600,26,48,34,9.8,1
+62,Burger maso s bramborem,main,,520,14.6,45,49,5,1
+63,Losos s bramborem,main,,520,17,41,47,3.8,1
+64,Tikka masala,main,Albert,2400,77.8,193,230,18.6,4
+65,Kuřecí s jarní cibulkou a rýží,main,,1140,8,130,135,4,3
+66,Kuřecí s bramborem,main,,500,4,63,49,8.4,1
+67,Sýrové špagety,main,,460,12,25,62,3.7,1
+68,Bageta s trhaným masem,main,,640,15,62,60,6,1
+69,Vřetena s tuňákem,main,,2800,39.4,169,416,24.6,5
+70,Těstoviny s chorizem,main,,630,18,50,62,9,1
+71,Těstoviny s lososem,main,,670,19,57,62,2,1
+72,Těstoviny s pestem a cottagem,main,,490,14.5,22.7,64,0,1
+73,Tortilla s kuřecím,main,,400,11,34,37.5,2,1
+74,Quesadilla,main,,820,33,51,78,6,1
+75,Losos salát s quinoou,main,,1420,72,106,74,16,3
+76,Big mac salát,main,,400,15.5,43,16,3,1
+77,Tousty,main,,500,17,26,60,2,1
+78,Špagety s klobásou,main,,660,25,37,69,3,1
+79,Fit tiramisu,breakfast,,300,2.3,24.6,43.6,0,1
+80,Gulášovka,main,,530,42,7.5,30,0,2
+81,Caprese,main,,230,11,24,6,0,1
+82,Vajíčková pomazánka,main,,450,23.4,44,15.5,0,2
+83,Tousty s tuňákem a vejcem,main,,500,15,37,53,1.5,1
+84,Tousty s avokádem a vejcem,main,,450,25,19,32,6,1
+85,Palačinky,breakfast,,1667,43,100,216,8,19
+86,Topinky s cottagem a džemem,breakfast,,300,4,15,48,,1
+87,Tvaroh s mangem,breakfast,,400,2.5,32,59,5,1
+88,Kuřecí s lečem,main,,2100,17,160,314,,1
+89,Těstoviny se šunkou a hráškem,main,,1735,35,130,208,29,3
+90,Sushi maki 1ks,main,,30,,,5,,1
+91,CrossCafe Cold Brew Tonic Grep,drink,CrossCafe,132,,,34,,1
+92,CrossCafe Tvaroh se sušenkami a jahodami,breakfast,CrossCafe,300,14,32,10,,1
+93,CrossCafe Ovesná kaše,breakfast,CrossCafe,350,10,10,50,,1
+94,Ovesná kaše (30g),breakfast,,350,7,13,56,7,1

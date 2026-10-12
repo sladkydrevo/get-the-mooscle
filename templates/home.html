@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<body>
+    <div>
+        <h1>let's get dem múskles</h1>
+    </div>
+
+    <div id="mainContainer">
+
+        <div id="mainBox">
+            <div id="searchArea">
+                <input type="text" id="searchInput" placeholder="Search for a meal...">
+                <button id="searchButton">Edit mode</button>
+            </div>
+            <div id="resultsList">
+                {% for meal_result in meal_results %}
+                    <div class="{% if meal_result['is_ingredient'] %} ingredient {% endif %} mealTile">
+                        <div class="half leftTileSide">
+                            <p class="mealName">{{ meal_result["name"] }}</p>
+                            <div class="mealButtons">
+                                <button class="favorite mealButton">♥</button>
+                                <button class="edit mealButton">✎</button>
+                            </div>
+                            
+                        </div>
+                        <div class="half rightTileSide">
+                            <p class="mealMacro"><b>Kcal: {{ meal_result["kcal"] }}</b></p>
+                            <p class="mealMacro">Protein: {{ meal_result["protein"] }}</p>
+                            <p class="mealMacro">Fats: {{ meal_result["fats"] }}</p>
+                            <p class="mealMacro">Carbs: {{ meal_result["carbs"] }}</p>
+                            <p class="mealMacro">Fiber: {{ meal_result["fiber"] }}</p>
+                        </div>
+                        
+                    </div>
+                {% endfor %}
+                <div class="detailsBox">
+                    <p id="header">Meal Details</p>
+                    <table class="ingredientTable">
+                        <tr>
+                            <th class="ingredientName">Ingredient</th>
+                            <th class="ingredientQuantity">Quantity</th>
+                            <th class="ingredientUnit">Unit</th>
+                        </tr>
+                        <tr>
+                            <td class="ingredientName">páreg</td>
+                            <td class="ingredientQuantity">5</td>
+                            <td class="ingredientUnit">g</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="leftBox">
+            <div id="caloriesBox">
+                <h2 id="calories">1600</h2> <!-- dynamic number -->
+            </div>
+
+            <div id="selectedMealsBox">
+                <ul id="selectedMealsList">
+                    <p>Selected Meals</p>
+                    <!-- dynamic list of selected meals -->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+{% endblock %}
